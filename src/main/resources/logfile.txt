@@ -1,0 +1,13 @@
+2025-05-06 10:15:32 INFO  [main] com.example.MyApp - Application started
+2025-05-06 10:15:33 DEBUG [main] com.example.MyApp - Loading configuration
+2025-05-06 10:15:34 INFO  [main] com.example.ConfigLoader - Config loaded successfully
+2025-05-06 10:15:35 INFO  [main] com.example.HttpClient - Calling API https://api.example.com/v1/users
+2025-05-06 10:15:35 WARN  [main] com.example.Database - Connection is slow
+2025-05-06 10:15:36 ERROR [main] com.example.Database - Failed to connect to DB
+2025-05-06 10:15:37 INFO  [worker-1] com.example.Worker - Processing task ID: 12345
+2025-05-06 10:15:37 INFO  [worker-1] com.example.HttpClient - Calling API https://api.example.com/v1/tasks/12345
+2025-05-06 10:15:38 DEBUG [worker-1] com.example.Worker - Task 12345 completed in 230ms
+2025-05-06 10:15:39 INFO  [worker-2] com.example.Worker - Processing task ID: 12346
+2025-05-06 10:15:39 INFO  [worker-2] com.example.HttpClient - Calling API https://api.example.com/v1/tasks/12346
+2025-05-06 10:15:40 ERROR [worker-2] com.example.Worker - Failed to process task ID: 12346
+2025-05-06 10:15:41 INFO  [main] com.example.MyApp - Shutting down application
